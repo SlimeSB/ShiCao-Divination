@@ -32,8 +32,6 @@ def generate_Gua(results):
     change_mapping = {6: 1, 7: 1, 8: 0, 9: 0}
     Gua = [mapping.get(result, None) for result in results]
     BianGua = [change_mapping.get(result, None) for result in results]
-    Gua.reverse()
-    BianGua.reverse()
 
     # 卦象名称
     order = ['坤','复','师','临','谦','明夷','升','泰',
